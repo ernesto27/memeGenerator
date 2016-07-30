@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<meta charset="utf-8">
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+    	<title></title>
+  	</head>
+  	
+  	<body>
+		<div class="container">
+			<h1>Meme generator</h1>
+			<canvas id="memecanvas">
+			    Sorry, canvas not supported
+			</canvas>
+
+
+			<img style="display: none;"  id="image" src="snap-02.jpg" alt="" />
+
+			<br>
+			<p>Top</p>
+			<textarea id="textarea-top"></textarea>
+			<br>
+
+			<p>Bottom</p>
+			<textarea id="textarea-bottom"></textarea>
+			<br>
+
+
+
+			<button id="btn-save" class="btn btn-primary">Save on server</button>
+  		</div>
+
+  		<script src="js/memeGenerator.js"></script>
+  	</body>
+</html>
+
